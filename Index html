@@ -1,35 +1,347 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-  <title>SVL Local Store</title>
-  <style>
-    body { font-family: Arial; text-align: center; }
-    .product { border: 1px solid #ccc; padding: 10px; margin: 10px; }
-    img { width: 150px; }
-    button { background: green; color: white; padding: 10px; border: none; }
-  </style>
-</head>
-<body>
 
-<h1>SVL Local Store - Clothes</h1>
+  <head>
 
-<div class="product">
-  <img src="https://via.placeholder.com/150">
-  <h3>T-Shirt</h3>
-  <p>Price: ₹499</p>
-  <a href="https://wa.me/919490531433">
-    <button>Order on WhatsApp</button>
-  </a>
-</div>
+    <title>Budget fld</title>
 
-<div class="product">
-  <img src="https://via.placeholder.com/150">
-  <h3>Jeans</h3>
-  <p>Price: ₹999</p>
-  <a href="https://wa.me/919490531433">
-    <button>Order on WhatsApp</button>
-  </a>
-</div>
+    <link rel="stylesheet" href="styles.css" />
 
-</body>
+  </head>
+
+  <body>
+
+ 
+
+     <style>
+
+       *{
+
+         Margin:0;
+
+         padding:0;
+
+       }
+
+       .logo container img{
+
+         width:100px;
+
+       }
+
+       .header-container{
+
+         display:flex;
+
+         justify-content: space-evenly;
+
+         align-content: center;
+
+         background-color: white;
+
+         padding:6px;
+
+       }
+
+       .search-container{
+
+         width:40vw;
+
+       }
+
+       .search-container input{
+
+         width:100px;
+
+         padding:10px 10px 10px 10px;
+
+         background color:#f0f5ff;
+
+         border:none;
+
+         font-size:17px;
+
+         font-weight:lighter;
+
+         color:gray;
+
+       }
+
+       .search-container img{
+
+         position:absolute;
+
+         width:25px;
+
+         top:22px;
+
+         left:222px;
+
+       }
+
+       .seller-icon img{
+
+         width:25px;
+
+       }
+
+       .item-1{
+
+         display:flex;
+
+       }
+
+       .seller text{
+
+         padding:5px;
+
+       }
+
+       .user-icon img{
+
+         width:25px;
+
+        
+
+       }
+
+       .item-2{
+
+         display:flex;
+
+       }
+
+       .user-text{
+
+         padding:5px;
+
+       }
+
+       .cart-text{
+
+         padding:5px;
+
+       }
+
+       .dot-icon{
+
+         width:18px;
+
+         .item-4
+
+       }
+
+       body{
+
+         background-color:gray;
+
+       }
+
+       .container-1{
+
+         width:98%;
+
+         height:25vh;
+
+         display:flex;
+
+         background-color:white;
+
+         margin:10px 15px 10px 15px;
+
+         justify-content:space-evenly;
+
+         align-it:center;
+
+       }
+
+       .product1img{
+
+         width:80px;
+
+       }
+
+       .product1text{
+
+         text-align:center;
+
+       }
+
+       .slider{
+
+         width:96%;
+
+         margin:auto;
+
+       }
+
+       .slider img{
+
+         width:100%;
+
+       }
+
+       .left-btn{
+
+         padding:35px 15px 35px 15px;
+
+         background-color:white;
+
+         border:none;
+
+         border-top-right-radius:10px;
+
+         border-bottom-right-radius:10px;
+
+         position:absolute;
+
+         top:300px;
+
+         left:25px;
+
+       }
+
+       .right-btn{
+
+         padding:35px 15px 35px 15px;
+
+         background-color:white;
+
+         border:none;
+
+         border-top-left-radius:10px;
+
+         border-bottom-left-radius:10px;
+
+         position:absolute;
+
+         top:200px;
+
+         right:25px;
+
+       }
+
+       .container-3{
+
+         margin:10px 15px;
+
+         .container-3-sub1{
+
+           background-color:white;
+
+           height:50vh;
+
+           width:75vw;
+
+         }
+
+       }
+
+       .cont3head{
+
+         font-size:20px;
+
+         font-weight:bold;
+
+         padding:20PX;
+
+       }
+
+       .cont3it1img img{
+
+         width:200px;
+
+       }
+
+       .cont3item1{
+
+         display:flex;
+
+         justify-content:space-evenly;
+
+         align-items:center;
+
+       }
+
+       .cont3it1text{
+
+         text-align:center;
+
+       }
+
+     </style>
+
+     </head>
+
+     <body>
+
+       <header class="header container">
+
+         <div class="logo-container">
+
+           <img src="images/logo.png" alt="">
+
+         </div>
+
+         <div class="search-container">
+
+           <img src="images/search-icon">
+
+           <input type="search placeholder="search for products,brands and more>
+
+         </div>
+
+         <div class="item-1">
+
+           <div class="seller-icon"?
+
+           <img src="images/shop-icon.png" alt="">
+
+         </div>
+
+         <div class="seller-text">
+
+           become a seller
+
+         </div>
+
+         <div class="item-2">
+
+           <div class="user-icon">
+
+             <img src="images/cart-icon.png">
+
+           </div>
+
+           <div class="item-3">
+
+             <div class="cart-icon">
+
+               <img src="images/dot-icon.png">
+
+             </div>
+
+             <div class="product1 text">
+
+               grocery
+
+             </div>
+
+             <div class="product-1">
+
+             </div>
+
+           </div>
+
+         </div>
+
+         
+
+       </header>
+
+     </body>
+
+  </body>
+
 </html>
