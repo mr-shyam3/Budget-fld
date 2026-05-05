@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVL Local Store</title>
+  <style>
+    body { font-family: Arial; text-align: center; }
+    .product { border: 1px solid #ccc; padding: 10px; margin: 10px; }
+    img { width: 150px; }
+    button { background: green; color: white; padding: 10px; border: none; }
+  </style>
+</head>
+<body>
+
+<h1>SVL Local Store - Clothes</h1>
+
+<div class="product">
+  <img src="https://via.placeholder.com/150">
+  <h3>T-Shirt</h3>
+  <p>Price: ₹499</p>
+  <a href="https://wa.me/919490531433">
+    <button>Order on WhatsApp</button>
+  </a>
+</div>
+
+<div class="product">
+  <img src="https://via.placeholder.com/150">
+  <h3>Jeans</h3>
+  <p>Price: ₹999</p>
+  <a href="https://wa.me/919490531433">
+    <button>Order on WhatsApp</button>
+  </a>
+</div>
+
+</body>
+</html>
